@@ -1,0 +1,90 @@
+body {
+    background-color: azure;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: #86898f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin: 0;
+    color: #86898f;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    border-radius: 10%;
+}
+
+.pos {
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.footer h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    color: #86898f;
+    cursor: pointer;
+}
+
+.form-group input,
+.text-area {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    padding: 15px 0 10px;
+    background: transparent;
+}
+
+.form-text {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-text>.form-group {
+    width: 50%;
+
+}
+
+.form-text>.form-group:first-child {
+    margin-right: 20px;
+}
